@@ -10,7 +10,7 @@ const Cards = () => {
             <Card src={"/assets/sect_2/frame_3.png"}/>
             <Card src={"/assets/sect_2/frame_4.png"}/>
         </div>
-        <div className="flex flex-wrap lg:flex-nowrap mt-6">
+        <div className="flex flex-wrap lg:flex-nowrap lg:mt-6">
             <Card src={"/assets/sect_2/frame_5.png"}/>
             <Card src={"/assets/sect_2/frame_6.png"}/>
             <Card src={"/assets/sect_2/frame_7.png"}/>

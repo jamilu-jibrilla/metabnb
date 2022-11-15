@@ -1,6 +1,6 @@
 const Card = ({src}) => {
     return (
-        <div className="w-[85%] mb-3 md:mb-0 md:w-[45%] lg:w-[23%] h-[fit-content] mx-auto md:mx-3 border border-[#D7D7D7]] rounded-[15px] p-3 text-[13px]">
+        <div className="w-[85%] mb-3 lg:mb-0 md:w-[45%] lg:w-[23%] h-[fit-content] mx-auto md:mx-3 border border-[#D7D7D7]] rounded-[15px] p-3 text-[13px]">
             <img className="h-[75%] w-[100%]" src={src} alt="N F T image" />
             <div className="flex justify-between my-2">
                 <span>Desert King</span>

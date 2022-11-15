@@ -29,19 +29,19 @@ const Place = () => {
           <Card src={"/assets/places/frame3.png"} />
           <Card src={"/assets/places/frame4.png"} />
         </div>
-        <div className="flex flex-wrap justify-center lg:flex-nowrap mt-6">
+        <div className="flex flex-wrap justify-center lg:flex-nowrap lg:mt-6">
           <Card src={"/assets/places/frame5.png"} />
           <Card src={"/assets/places/frame6.png"} />
           <Card src={"/assets/places/frame7.png"} />
           <Card src={"/assets/places/frame8.png"} />
         </div>
-        <div className="flex flex-wrap justify-center lg:flex-nowrap mt-6">
+        <div className="flex flex-wrap justify-center lg:flex-nowrap lg:mt-6">
           <Card src={"/assets/places/frame9.png"} />
           <Card src={"/assets/places/frame10.png"} />
           <Card src={"/assets/places/frame11.png"} />
           <Card src={"/assets/places/frame12.png"} />
         </div>
-        <div className="flex flex-wrap justify-center lg:flex-nowrap mt-6">
+        <div className="flex flex-wrap justify-center lg:flex-nowrap lg:mt-6">
           <Card src={"/assets/places/frame13.png"} />
           <Card src={"/assets/places/frame14.png"} />
           <Card src={"/assets/places/frame15.png"} />
