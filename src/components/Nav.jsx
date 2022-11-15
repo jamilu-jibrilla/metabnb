@@ -12,11 +12,12 @@ const Nav = ({setOpenModal}) => {
                 <li><Link onClick={()=> setIsOpen(false)} to="place">Place to stay </Link></li>
                 <li><a href="#">NFTs</a></li>
                 <li><a href="#">Community</a></li>
+                <button onClick={()=> {setOpenModal(true), setIsOpen(false)} } className="md:hidden w-[120px] text-sm lg:text-[1rem] lg:w-[170px] h-[45px] lg:h-[48px] rounded-[10px] bg-gradient-to-r from-[#A02279] to-[#A02279] text-white">Connect wallet</button>
             </ul>
             <div className="md:hidden" onClick={()=> setIsOpen(prev=> !prev)}>
-                <div className={`${isOpen ? 'rotate-45 h-[1.5px]': '' } transition-all ease-linear duration-200 h-[3px] w-[22px] mb-[3px] bg-black`}></div>
-                <div className={`${isOpen ? 'hidden': '' } transition-all ease-linear duration-200 h-[3px] w-[22px] mb-[3px] bg-black`}></div>
-                <div className={`${isOpen ? '-rotate-45 h-[1.5px]': '' } transition-all ease-linear duration-200 h-[3px] w-[22px] bg-black`}></div>
+                <div className={`${isOpen ? 'rotate-45 h-[1.5px]': 'h-[3px]' } transition-all ease-linear duration-200  w-[22px] mb-[3px] bg-black`}></div>
+                <div className={`${isOpen ? 'hidden': 'h-[3px]' } transition-all ease-linear duration-200 w-[22px] mb-[3px] bg-black`}></div>
+                <div className={`${isOpen ? '-rotate-45 h-[1.5px]': 'h-[3px]' } transition-all ease-linear duration-200 w-[22px] bg-black`}></div>
             </div>
             <button onClick={()=> setOpenModal(true) } className="hidden md:block w-[120px] text-sm lg:text-[1rem] lg:w-[170px] h-[45px] lg:h-[48px] rounded-[10px] bg-gradient-to-r from-[#A02279] to-[#A02279] text-white">Connect wallet</button>
         </nav>
